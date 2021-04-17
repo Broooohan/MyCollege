@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+.strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  height: 8vh;
+  background-color: #003b68;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding: 0px 100px;
+}
+.icons {
+  padding: 0px 0.2rem;
+  margin: 0px 0.2rem;
+}
+.head-strip {
+  color: #6b6b6b;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30vh;
+}
+.hamburger {
+  display: none;
+  border: 2px solid gray;
+  border-radius: 10px;
+  height: 32px;
+}
+div.line {
+  background: black;
+  margin: 5px;
+  color: black;
+  height: 3px;
+  width: 30px;
+}
+#logo {
+  height: 150px;
+  width: 150px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background-color: whitesmoke;
+}
+.welcome{
+    display: none;
+}
+nav a{
+    color: black;
+  padding: 0px 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+div ul a {
+    display: block;
+  color: black;
+  padding: 0px 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  padding: 5px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.small-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    display: none;
+}
+section{
+    background-color: #003b68;
+}
+.cover {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .right {
+    background: url("director.jpg");
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #brand_head{
+      margin: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 35px;
+      color: whitesmoke;
+  }
+  #brand_para{
+      margin: 15px;
+      color: whitesmoke;
+  }
+  #brand_btn{
+      width: 120px;
+      height: 40px;
+      margin: 15px;
+      border: none;
+      color: whitesmoke;
+      background-color: black;
+      padding: 5px;
+      border-radius: 5px;
+  }
+  #brand_btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+  }
+  .left {
+    width: 45%;
+    height: 65vh;
+    background: url("mnit.jpeg");
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.9;
+  }
+  .events h2{
+      text-align: center;
+      padding: 10px;
+      color: #6b6b6b;
+  }
+.event{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+iframe{
+    padding: 10px;
+}
+.about{
+    color: whitesmoke;
+    background-color: #003b68;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-head{
+    width: 35%;
+    color: #51be78;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.about-para{
+    width: 60%;
+    align-self: center;
+    font-size: 25px;
+}
+.industry-head{
+    text-align: center;
+      padding: 10px;
+      color: #6b6b6b;
+}
+.partners{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 5px auto;
+}
+.partner-logo{
+    padding: 30px;
+    height: 100px;
+    width: 150px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: #2c353e;
+    color: whitesmoke;
+    padding: 20px;
+}
+footer div{
+    padding: 10px 50px;
+}
+.links ul a{
+    text-align: center;
+    color: whitesmoke;
+}
+.contact ul a{
+    text-align: center;
+    color: whitesmoke;
+}
+.cp{
+    font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding: 5px;
+  color: whitesmoke;
+  background-color: #202020;
+}
+@media screen and (max-width: 1053px) {
+  .college-head {
+    display: none;
+  }
+  .head-strip {
+    justify-content: space-between;
+    padding: 0px 10px;
+  }
+  .hamburger {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  .welcome{
+      display: inline;
+  }
+  cover {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .left{
+      width: 90%;
+      border-radius: 20px;
+  }
+  .right{
+      align-items: center;
+      width: 90%;
+  }
+  .about{
+      flex-direction: column;
+  }
+  .about-head{
+      width: 100%;
+  }
+}
+@media screen and (max-width: 724px) {
+    .strip {
+      justify-content: center;
+    }
+  .social-media {
+      width: 100%;
+      padding: 0px 0px;
+  }
+    .head-strip {
+      height: 8vh;
+    }
+    #logo {
+      height: 40px;
+      width: 40px;
+    }
+    footer{
+        padding: 5px 0px;
+        flex-direction: column;
+    }
+    footer div{
+        padding: 10px 0px;
+    }
+  }
